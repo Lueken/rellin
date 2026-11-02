@@ -1,0 +1,25 @@
+node_modules/
+.codex/
+.agents/
+.aws/
+.env
+*.db
+*.db-*
+*.jsonl
+
+# Local verification captures and scratch runners (not product assets).
+.impeccable/review/
+tmp/
+
+# Local planning, design explorations, and private trial evidence are not published.
+.impeccable/
+DESIGN.md
+PRODUCT.md
+todo.md
+/docs/*
+!/docs/installation.md
+!/docs/recording-health.md
+!/docs/attention-vocabulary.md
+*.tgz
+.env.*
+!.env.example

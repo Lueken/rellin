@@ -1,0 +1,359 @@
+{
+  "source": "Installed codex-cli 0.166.0; 2026-11-01 local menus, no selections saved; project path sanitized",
+  "cols": 120,
+  "rows": 35,
+  "screens": {
+    "start": {
+      "rows": [
+        "",
+        "  >_ OpenAI Codex (v0.166.0)",
+        "     ~\\project",
+        "",
+        "  Tip: Use the desktop app. Install it from https://chatgpt.com/codex?app-landing-page=true and run codex app.",
+        " ",
+        " ",
+        "› Ask Codex to do anything",
+        " ",
+        "  GPT-6-Astra high · ~\\project                                                 ⚠ 2 warnings · f2 to view"
+      ],
+      "cursor": {
+        "x": 2,
+        "y": 7,
+        "baseY": 0
+      }
+    },
+    "model-draft": {
+      "rows": [
+        "",
+        "  >_ OpenAI Codex (v0.166.0)",
+        "     ~\\project",
+        "",
+        "  Tip: Use the desktop app. Install it from https://chatgpt.com/codex?app-landing-page=true and run codex app.",
+        " ",
+        "› /model  choose what model and reasoning effort to use                                                                 ",
+        " ",
+        "› /model",
+        " ",
+        "  GPT-6-Astra high · ~\\project"
+      ],
+      "cursor": {
+        "x": 8,
+        "y": 8,
+        "baseY": 0
+      }
+    },
+    "model-menu": {
+      "rows": [
+        "",
+        "  >_ OpenAI Codex (v0.166.0)",
+        "     ~\\project",
+        "",
+        "  Tip: Use the desktop app. Install it from https://chatgpt.com/codex?app-landing-page=true and run codex app.",
+        " ",
+        " ",
+        "  Select Model and Effort",
+        " ",
+        " ",
+        "  1. GPT-6.1-Sol            Latest workhorse model for coding and everyday work.",
+        "› 2. GPT-6-Astra (current)  Frontier intelligence for the most demanding work.                                          ",
+        "  3. GPT-6.1 Terra          GPT-6.1 Terra Codex model.",
+        "  4. GPT-6-Sol              Previous generation workhorse model.",
+        "  5. GPT-6-Luna             Fast and affordable model for easier tasks.",
+        "  6. GPT-5.6-Sol            Older generation workhorse model.",
+        "  7. GPT-5.6-Terra          Older balanced model for straightforward work.",
+        "  8. GPT-5.6-Luna           Older fast and efficient model.",
+        " ",
+        "  enter select · esc back                                                                                               "
+      ],
+      "cursor": {
+        "x": 120,
+        "y": 19,
+        "baseY": 0
+      }
+    },
+    "model-effort-menu": {
+      "rows": [
+        "",
+        "  >_ OpenAI Codex (v0.166.0)",
+        "     ~\\project",
+        "",
+        "  Tip: Use the desktop app. Install it from https://chatgpt.com/codex?app-landing-page=true and run codex app.",
+        " ",
+        " ",
+        "  Select Reasoning Level for GPT-6-Astra",
+        " ",
+        " ",
+        "  1. Low               Fast responses with lighter reasoning",
+        "  2. Medium (default)  Balances speed and reasoning depth for everyday tasks",
+        "› 3. High (current)    Greater reasoning depth for complex problems                                                     ",
+        "  4. Extra high        Extra high reasoning depth for complex problems",
+        "  5. More reasoning…   Max and Ultra consume usage limits faster",
+        " ",
+        "  enter default · s session · esc back                                                                                  "
+      ],
+      "cursor": {
+        "x": 120,
+        "y": 16,
+        "baseY": 0
+      }
+    },
+    "model-exit": {
+      "rows": [
+        "",
+        "  >_ OpenAI Codex (v0.166.0)",
+        "     ~\\project",
+        "",
+        "  Tip: Use the desktop app. Install it from https://chatgpt.com/codex?app-landing-page=true and run codex app.",
+        " ",
+        " ",
+        "  Select Model and Effort",
+        " ",
+        " ",
+        "  1. GPT-6.1-Sol            Latest workhorse model for coding and everyday work.",
+        "› 2. GPT-6-Astra (current)  Frontier intelligence for the most demanding work.                                          ",
+        "  3. GPT-6.1 Terra          GPT-6.1 Terra Codex model.",
+        "  4. GPT-6-Sol              Previous generation workhorse model.",
+        "  5. GPT-6-Luna             Fast and affordable model for easier tasks.",
+        "  6. GPT-5.6-Sol            Older generation workhorse model.",
+        "  7. GPT-5.6-Terra          Older balanced model for straightforward work.",
+        "  8. GPT-5.6-Luna           Older fast and efficient model.",
+        " ",
+        "  enter select · esc back                                                                                               "
+      ],
+      "cursor": {
+        "x": 120,
+        "y": 19,
+        "baseY": 0
+      }
+    },
+    "model-exit-parent": {
+      "rows": [
+        "",
+        "  >_ OpenAI Codex (v0.166.0)",
+        "     ~\\project",
+        "",
+        "  Tip: Use the desktop app. Install it from https://chatgpt.com/codex?app-landing-page=true and run codex app.",
+        " ",
+        " ",
+        "› Ask Codex to do anything",
+        " ",
+        "  GPT-6-Astra high · ~\\project                                                 ⚠ 2 warnings · f2 to view"
+      ],
+      "cursor": {
+        "x": 2,
+        "y": 7,
+        "baseY": 0
+      }
+    },
+    "permissions-draft": {
+      "rows": [
+        "",
+        "  >_ OpenAI Codex (v0.166.0)",
+        "     ~\\project",
+        "",
+        "  Tip: Use the desktop app. Install it from https://chatgpt.com/codex?app-landing-page=true and run codex app.",
+        " ",
+        "› /permissions  choose what Codex is allowed to do                                                                      ",
+        " ",
+        "› /permissions",
+        " ",
+        "  GPT-6-Astra high · ~\\project"
+      ],
+      "cursor": {
+        "x": 14,
+        "y": 8,
+        "baseY": 0
+      }
+    },
+    "permissions-menu": {
+      "rows": [
+        "",
+        "  >_ OpenAI Codex (v0.166.0)",
+        "     ~\\project",
+        "",
+        "  Tip: Use the desktop app. Install it from https://chatgpt.com/codex?app-landing-page=true and run codex app.",
+        " ",
+        " ",
+        "  Update Model Permissions",
+        " ",
+        " ",
+        "› 1. Ask for approval (current)  Read and edit workspace files and run commands, with approval required for internet    ",
+        "                                 access or edits outside the workspace                                                  ",
+        "  2. Approve for me              Only ask for actions detected as potentially unsafe",
+        "  3. Full Access                 Use with caution: Codex can edit files outside this workspace and access the internet",
+        "                                 without approval",
+        "  4. Read Only                   Read workspace files, with approval required for edits or internet access",
+        " ",
+        "  enter select · esc back                                                                                               "
+      ],
+      "cursor": {
+        "x": 120,
+        "y": 17,
+        "baseY": 0
+      }
+    },
+    "permissions-exit": {
+      "rows": [
+        "",
+        "  >_ OpenAI Codex (v0.166.0)",
+        "     ~\\project",
+        "",
+        "  Tip: Use the desktop app. Install it from https://chatgpt.com/codex?app-landing-page=true and run codex app.",
+        " ",
+        " ",
+        "› Ask Codex to do anything",
+        " ",
+        "  GPT-6-Astra high · ~\\project                                                 ⚠ 2 warnings · f2 to view"
+      ],
+      "cursor": {
+        "x": 2,
+        "y": 7,
+        "baseY": 0
+      }
+    },
+    "skills-menu": {
+      "rows": [
+        "",
+        "  >_ OpenAI Codex (v0.166.0)",
+        "     ~\\project",
+        "",
+        "  Tip: Use the desktop app. Install it from https://chatgpt.com/codex?app-landing-page=true and run codex app.",
+        " ",
+        " ",
+        "  Skills",
+        "  Choose an action",
+        " ",
+        " ",
+        "› 1. List skills            Tip: press $ to open this list directly                                                     ",
+        "  2. Enable/Disable Skills  Enable or disable skills",
+        " ",
+        "  enter select · esc back                                                                                               "
+      ],
+      "cursor": {
+        "x": 120,
+        "y": 14,
+        "baseY": 0
+      }
+    },
+    "skills-exit": {
+      "rows": [
+        "",
+        "  >_ OpenAI Codex (v0.166.0)",
+        "     ~\\project",
+        "",
+        "  Tip: Use the desktop app. Install it from https://chatgpt.com/codex?app-landing-page=true and run codex app.",
+        " ",
+        " ",
+        "› Ask Codex to do anything",
+        " ",
+        "  GPT-6-Astra high · ~\\project                                                 ⚠ 2 warnings · f2 to view"
+      ],
+      "cursor": {
+        "x": 2,
+        "y": 7,
+        "baseY": 0
+      }
+    },
+    "theme-menu": {
+      "rows": [
+        "",
+        "  >_ OpenAI Codex (v0.166.0)",
+        "     ~\\project",
+        "",
+        "  Tip: Use the desktop app. Install it from https://chatgpt.com/codex?app-landing-page=true and run codex app.",
+        " ",
+        " ",
+        "  Select Syntax Theme",
+        "  Move up/down to live preview themes",
+        " ",
+        "  Type to filter themes...                                     31  fn summarize(users: &[User]) -> String {",
+        "↑                                                              32 -    let active = users.iter().filter(|u| u.is_activ",
+        "  base16-eighties-dark                                         32 +    let active = users.iter().filter(|u| u.is_activ",
+        "  base16-mocha-dark                                            33      let names: Vec<&str> = users.iter().map(User::n",
+        "  base16-ocean-dark                                            34 -    format!(\"{} active: {}\", active, names.join(\", ",
+        "  base16-ocean-light                                           34 +    format!(\"{active} active users: {}\", names.join",
+        "  catppuccin-frappe                                            35 +        .trim()                                    ",
+        "  catppuccin-latte                                             36  }",
+        "  catppuccin-macchiato",
+        "› catppuccin-mocha (current)                               ",
+        "↓",
+        "  enter select · esc back                                                                                               "
+      ],
+      "cursor": {
+        "x": 120,
+        "y": 21,
+        "baseY": 0
+      }
+    },
+    "theme-exit": {
+      "rows": [
+        "",
+        "  >_ OpenAI Codex (v0.166.0)",
+        "     ~\\project",
+        "",
+        "  Tip: Use the desktop app. Install it from https://chatgpt.com/codex?app-landing-page=true and run codex app.",
+        " ",
+        " ",
+        "› Ask Codex to do anything",
+        " ",
+        "  GPT-6-Astra high · ~\\project                                                 ⚠ 2 warnings · f2 to view"
+      ],
+      "cursor": {
+        "x": 2,
+        "y": 7,
+        "baseY": 0
+      }
+    },
+    "statusline-menu": {
+      "rows": [
+        "",
+        "  >_ OpenAI Codex (v0.166.0)",
+        "     ~\\project",
+        "",
+        "  Tip: Use the desktop app. Install it from https://chatgpt.com/codex?app-landing-page=true and run codex app.",
+        " ",
+        " ",
+        "  Configure Status Line",
+        "  Select which items to display in the status line.",
+        " ",
+        "  Type to search",
+        " ",
+        "› [x] Use theme colors      Apply colors from the active /theme                                                         ",
+        "  ───────────────────────",
+        "  [x] model-with-reasoning  Current model name with reasoning level",
+        "  [x] current-dir           Current working directory",
+        "  [x] thread-name           Current thread name (omitted when unnamed)",
+        "  [ ] model                 Current model name",
+        "  [ ] reasoning             Current reasoning level",
+        "  [ ] project-name          Project name (omitted when unavailable)",
+        "↓",
+        "  GPT-6-Astra high · ~\\project · thread name",
+        "  space toggle · ←/→ reorder · enter save · esc cancel                                                                  "
+      ],
+      "cursor": {
+        "x": 120,
+        "y": 22,
+        "baseY": 0
+      }
+    },
+    "statusline-exit": {
+      "rows": [
+        "",
+        "  >_ OpenAI Codex (v0.166.0)",
+        "     ~\\project",
+        "",
+        "  Tip: Use the desktop app. Install it from https://chatgpt.com/codex?app-landing-page=true and run codex app.",
+        " ",
+        " ",
+        "› Ask Codex to do anything",
+        " ",
+        "  GPT-6-Astra high · ~\\project                                                 ⚠ 2 warnings · f2 to view"
+      ],
+      "cursor": {
+        "x": 2,
+        "y": 7,
+        "baseY": 0
+      }
+    }
+  }
+}

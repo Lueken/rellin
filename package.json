@@ -1,0 +1,43 @@
+{
+  "name": "rellin",
+  "private": true,
+  "version": "0.6.0",
+  "type": "module",
+  "bin": {
+    "rellin": "./station.mjs",
+    "station": "./station.mjs"
+  },
+  "engines": {
+    "node": ">=22.6"
+  },
+  "scripts": {
+    "start": "node station.mjs",
+    "test": "node --test test/*.test.mjs"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.32.1",
+    "@xterm/addon-serialize": "^0.13.0",
+    "@xterm/headless": "^5.5.0",
+    "dotenv": "^16.6.1",
+    "node-pty": "1.1.0",
+    "qrcode": "1.5.4",
+    "smol-toml": "^1.8.0",
+    "ws": "^8.18.3"
+  },
+  "description": "A shared terminal workbench for your coding agents.",
+  "files": [
+    "*.mjs",
+    "README.md",
+    "docs/installation.md",
+    "docs/recording-health.md",
+    "docs/attention-vocabulary.md"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Lueken/rellin.git"
+  },
+  "homepage": "https://github.com/Lueken/rellin#readme",
+  "bugs": {
+    "url": "https://github.com/Lueken/rellin/issues"
+  }
+}
