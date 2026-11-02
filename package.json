@@ -1,11 +1,15 @@
 {
   "name": "rellin",
-  "private": true,
   "version": "0.6.0",
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/",
+    "tag": "latest"
+  },
   "type": "module",
   "bin": {
-    "rellin": "./station.mjs",
-    "station": "./station.mjs"
+    "rellin": "station.mjs",
+    "station": "station.mjs"
   },
   "engines": {
     "node": ">=22.6"

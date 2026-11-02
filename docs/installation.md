@@ -4,6 +4,20 @@ Rellin requires Node.js 22.6 or newer and a real terminal. Install and sign in
 to the agent CLIs you want to use separately. Installing Rellin does not install
 provider accounts, transfer credentials, or copy conversations between machines.
 
+## Install from npm
+
+Install or update with:
+
+```powershell
+npm install -g rellin
+rellin
+```
+
+The package name is `rellin`. npm selects its `latest` tag by default;
+`npm install -g rellin@latest` is the explicit equivalent. A `-latest` suffix
+would be a different package name. End users do not need an npm account to
+install a public package. GitHub Release archives remain an alternative below.
+
 ## Install from a GitHub Release
 
 Once a release contains an asset named `rellin.tgz`, npm can download and install
@@ -60,6 +74,21 @@ matching GitHub Release as `rellin.tgz` to keep the latest-release URL stable.
 The package allowlist contains runtime JavaScript, the README, and installation
 and recording documentation. Tests, private development notes, captures, local
 databases, and credentials are excluded.
+
+## Publish to npm
+
+Maintainers sign in with `npm login --registry=https://registry.npmjs.org`,
+complete npm's authentication requirements, and publish the reviewed archive:
+
+```powershell
+npm publish ./rellin-0.6.0.tgz --access public --tag latest
+```
+
+The first npm publication requires an available package name. Future releases
+must increment the version in both `package.json` and `package-lock.json` before
+packing; published name/version combinations cannot be reused. Publishing a
+GitHub Release alone does not update npm. The package's `publishConfig` targets
+the public npm registry and `latest` tag explicitly.
 
 ## Existing Station installations
 

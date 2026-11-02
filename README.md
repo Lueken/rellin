@@ -2,7 +2,14 @@
 
 A shared terminal workbench for your coding agents.
 
-Requires Node.js >=22.6. Run `npm install`, then `npm start` in a real terminal. Optional: `npm link` to install the `rellin` command. Run `npm test` for checks.
+Requires Node.js >=22.6 and a real terminal. Install and sign in to your chosen agent CLIs separately, then:
+
+```powershell
+npm install -g rellin
+rellin
+```
+
+Repeat the install command to update to the latest release. To develop from source, run `npm install`, then `npm start`; `npm link` links the command to your checkout. Run `npm test` for checks.
 
 For packaged releases and installation on another machine, see
 [Installing Rellin](docs/installation.md). The `station` command remains a compatibility alias.
